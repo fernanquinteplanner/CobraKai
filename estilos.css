@@ -1,0 +1,358 @@
+body {
+    margin: 0;
+    padding-top: 70px;
+    background-color: #080808;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: Impact, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: black;
+    border-bottom: 3px solid #d71920;
+}
+
+.navbar-brand {
+    color: white !important;
+    font-weight: bold;
+}
+
+.navbar .nav-link {
+    color: white;
+}
+
+.navbar .nav-link:hover {
+    color: #d71920;
+}
+
+.btn-cobra {
+    background-color: #d71920;
+    color: white;
+    border: 2px solid #d71920;
+    padding: 10px 20px;
+}
+
+.btn-cobra:hover {
+    background-color: #a30f16;
+    color: white;
+}
+
+.btn-outline-cobra {
+    background-color: transparent;
+    color: white;
+    border: 2px solid #d71920;
+    padding: 10px 20px;
+}
+
+.btn-outline-cobra:hover {
+    background-color: #d71920;
+}
+
+.hero {
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1mAQkeMxn8OH6JoqnHDrkSzit6ZqQOCly5fwp7tHWUwvx_02L9kmVuAg&s=10");
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+}
+
+.hero-content {
+    padding: 60px 0;
+}
+
+.hero h1 {
+    font-size: 60px;
+}
+
+.hero h1 span,
+.section-title span,
+.page-header h1 span,
+.cta-section h2 span {
+    color: #d71920;
+}
+
+.hero-description,
+.section-intro {
+    color: #b5b5b5;
+}
+
+.hero-bottom {
+    background-color: #d71920;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.hero-bottom span {
+    margin: 10px;
+    color: black;
+}
+
+.section-dark {
+    background-color: #111111;
+}
+
+.section-black {
+    background-color: #080808;
+}
+
+.section-title {
+    font-size: 35px;
+}
+
+.feature-box {
+    background-color: #191919;
+    padding: 25px;
+    border-bottom: 3px solid #d71920;
+}
+
+.feature-box:hover {
+    transform: translateY(-5px);
+}
+
+.feature-number {
+    color: #d71920;
+    font-size: 40px;
+}
+
+.feature-box p {
+    color: #b5b5b5;
+}
+
+.carousel {
+    border: 1px solid #333333;
+}
+
+.carousel-img {
+    height: 500px;
+    object-fit: cover;
+}
+
+.carousel-caption h3 {
+    font-size: 35px;
+}
+
+.page-header {
+    padding: 60px 0;
+    background-color: #111111;
+    border-bottom: 3px solid #d71920;
+}
+
+.page-header h1 {
+    font-size: 50px;
+}
+
+.discipline-card,
+.instructor-card,
+.pricing-card {
+    background-color: #191919;
+    color: white;
+    border: 1px solid #333333;
+}
+
+.discipline-card:hover,
+.instructor-card:hover,
+.pricing-card:hover {
+    border-color: #d71920;
+    transform: translateY(-5px);
+}
+
+.discipline-card .card-img-top {
+    height: 220px;
+    object-fit: cover;
+}
+
+.discipline-card .card-body,
+.instructor-card .card-body {
+    padding: 20px;
+}
+
+.card-tag,
+.instructor-specialty {
+    color: #d71920;
+}
+
+.discipline-card .card-text,
+.instructor-card p {
+    color: #b5b5b5;
+}
+
+.discipline-details {
+    padding: 15px;
+    border-top: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+}
+
+.cta-section {
+    padding: 60px 20px;
+    background-color: #151515;
+    border-bottom: 3px solid #d71920;
+}
+
+.cta-section p {
+    color: #b5b5b5;
+}
+
+.schedule-table {
+    color: white;
+}
+
+.schedule-table th {
+    background-color: #d71920;
+    color: white;
+    padding: 15px;
+}
+
+.schedule-table td {
+    background-color: #191919;
+    color: white;
+    padding: 15px;
+}
+
+.level-badge {
+    background-color: #292929;
+    border: 1px solid #555555;
+    padding: 5px;
+}
+
+.schedule-note {
+    color: #999999;
+}
+
+.dojo-image {
+    width: 100%;
+    max-height: 430px;
+    object-fit: cover;
+}
+
+.instructor-card .card-img-top {
+    height: 300px;
+    object-fit: cover;
+}
+
+.instructor-tags span {
+    display: inline-block;
+    background-color: #292929;
+    border-left: 2px solid #d71920;
+    padding: 5px 10px;
+    margin: 5px;
+}
+
+.pricing-card .card-body {
+    padding: 25px;
+}
+
+.price {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.price span {
+    color: #aaaaaa;
+    font-size: 16px;
+}
+
+.pricing-description {
+    color: #b5b5b5;
+}
+
+.pricing-list {
+    list-style: none;
+    padding: 0;
+}
+
+.pricing-list li {
+    padding: 8px 0;
+}
+
+.pricing-list li::before {
+    content: "✓ ";
+    color: #d71920;
+}
+
+.pricing-featured {
+    border: 2px solid #d71920;
+}
+
+.pricing-ribbon {
+    background-color: #d71920;
+    padding: 5px;
+}
+
+.contact-panel {
+    background-color: #191919;
+    border: 1px solid #333333;
+    padding: 25px;
+}
+
+.cobra-input {
+    background-color: #101010;
+    color: white;
+    border: 1px solid #444444;
+    padding: 10px;
+}
+
+.cobra-input:focus {
+    background-color: #101010;
+    color: white;
+    border-color: #d71920;
+}
+
+.cobra-input::placeholder {
+    color: #888888;
+}
+
+.form-label {
+    color: white;
+}
+
+.footer {
+    background-color: black;
+    color: #888888;
+    padding: 30px 0;
+}
+
+.footer-brand {
+    color: white;
+    font-size: 25px;
+}
+
+.footer-brand:hover {
+    color: #d71920;
+}
+
+@media (max-width: 767px) {
+    .hero {
+        min-height: 450px;
+    }
+
+    .hero h1 {
+        font-size: 40px;
+    }
+
+    .carousel-img {
+        height: 350px;
+    }
+
+    .page-header h1 {
+        font-size: 35px;
+    }
+
+    .section-title {
+        font-size: 28px;
+    }
+}
